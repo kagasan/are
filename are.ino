@@ -1,4 +1,31 @@
 #include <IRremote.hpp>
+
+// push button
+// 片方: 10pin
+// 片方: GND
+
+// 緑LED
+// V側: 7pin
+// GND側: GND
+
+// 赤LED
+// V側: 8pin
+// GND側: GND
+
+// フォトインタラプタ
+// Tの字になるようにうえから見て
+// 右上: 「100kΩを経由してGND」と「5pin」を並列
+// 右下: 100Ωを経由してGND
+// 左上: 5V
+// 左下: 5V
+
+// BC547L
+// osi5fu5111c-40
+// 上が平, 下が曲面になる視点で見て
+// 左: 5V - 47Ω - IR - トランジスタ
+// 中: 1kΩを経由して8pin
+// 右: GND
+
 const int LED_IR = 12;
 const int PHOTO_IT = 5;
 const int LED_RED = 8;

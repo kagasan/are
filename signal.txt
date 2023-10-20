@@ -1,0 +1,60 @@
+https://store.shopping.yahoo.co.jp/expsjapan/cim-rimo-usb-led01.html
+
+電源ボタン
+Address: 0
+Command: 40
+RawData: BF40FF00
+Address: 0
+Command: 40
+RawData: 0
+
+Mボタン
+Address: 0
+Command: 15
+RawData: EA15FF00
+Address: 0
+Command: 15
+RawData: 0
+
+
++ button
+Address: 0
+Command: C
+RawData: F30CFF00
+Address: 0
+Command: C
+RawData: 0
+
+- button
+Address: 0
+Command: 8
+RawData: F708FF00
+Address: 0
+Command: 8
+RawData: 0
+
+10 button
+Address: 0
+Command: 5E
+RawData: A15EFF00
+Address: 0
+Command: 5E
+RawData: 0
+
+30 button
+Address: 0
+Command: 5A
+RawData: A55AFF00
+Address: 0
+Command: 5A
+RawData: 0
+
+
+
+
+家のリモコン
+操作ボタン
+Address: 4086
+Command: 1A
+RawData: E51A4086
+IrSender.sendNEC(0x4086, 0x1A, 0);
